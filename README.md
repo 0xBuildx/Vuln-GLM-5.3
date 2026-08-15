@@ -1,5 +1,7 @@
 # Vuln
 
+A local, source-only **agentic code audit** console in the [OpenVuln](https://huggingface.co/spaces/zai-org/OpenVuln) visual language. Same job as [Aikido Code Audit](https://www.aikido.dev/code/code-audit): reason across a folder, find the auth / IDOR / business-logic bugs static scanners miss, and show evidence plus attack chains.
+
 The live engine defaults to **GLM-5.3** (Z.ai) — the cybersecurity-tuned coding model. Each specialist hunts with tools (`read_file`, `grep`, `list_dir`) for several rounds before submitting findings.
 
 No live URL. No crawl. No staging credentials. Point it at **your own folder** or a git remote.
