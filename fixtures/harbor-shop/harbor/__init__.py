@@ -1,0 +1,1 @@
+"""Harbor Shop — demo store."""
